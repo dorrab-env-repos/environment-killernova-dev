@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:killernova/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:killernova/pipelineUser:token
+  username: cloudbees-ci-cd[bot]
+prow:
+  hmacToken: vault:killernova/prow:hmacToken
+segmentWriteKey: vault:killernova:segmentWriteKey
